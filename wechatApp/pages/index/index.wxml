@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view>
+   <view wx:for="{{items}}" wx:key="{{index}}" class='message-item'>
+      <image src='/imgs/avatars/{{index+1}}.png' class='avatar'></image>
+   <view class='message-content'>
+      <view class='name'>{{item.name}}</view>
+      <view class='recent'>{{item.recent}}</view>
+   </view>
+   <view class='time'>{{item.time}}</view>
+ </view>
+</view>

@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/contacts/contacts",
+    "pages/discovery/discovery",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2aac5e",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#D9DADA",
+    "selectedColor": "#2aac5e",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "微信",
+      "iconPath": "imgs/tabBarIcons/message_normal.png",
+      "selectedIconPath": "imgs/tabBarIcons/message_press.png"
+    },
+    {
+      "pagePath": "pages/contacts/contacts",
+      "text": "通讯录",
+      "iconPath": "imgs/tabBarIcons/contacts_normal.png",
+      "selectedIconPath": "imgs/tabBarIcons/contacts_press.png"
+    },
+    {
+      "pagePath": "pages/discovery/discovery",
+      "text": "发现",
+      "iconPath": "imgs/tabBarIcons/discovery_normal.png",
+      "selectedIconPath": "imgs/tabBarIcons/discovery_press.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我",
+      "iconPath": "imgs/tabBarIcons/me_normal.png",
+      "selectedIconPath": "imgs/tabBarIcons/me_press.png"
+    }
+    ]
+  }
+}

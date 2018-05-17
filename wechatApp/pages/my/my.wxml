@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view> -->
+<view>
+   <view class='header'></view>
+   <view class='person-info'>
+       <image src='/imgs/avatars/20.png' class='avatar'></image>
+       <view class='person-content'>
+         <view class='name'>索隆</view>
+         <view class='wechat'>微信号：suolong</view>
+       </view>
+       <image src='/imgs/icons/QR_code.png' class='rq_code'></image>
+   </view>
+
+    <view wx:for="{{menus}}" wx:key="{{index}}" class='menu-item'>
+      <image wx:if="{{!item.header}}" src='/imgs/icons/{{item.icon}}' class='icon'></image>
+      <view wx:if="{{!item.header}}" class='title'>{{item.title}}</view>
+      <view wx:if="{{item.header}}" class='header'></view>
+   </view> 
+
+</view>

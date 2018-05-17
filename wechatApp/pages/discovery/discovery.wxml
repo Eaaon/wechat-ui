@@ -1,0 +1,15 @@
+<!--pages/discovery/discovery.wxml-->
+<view>
+   <view wx:for="{{items}}" wx:key="{{index}}" class='menu-item'>
+       <image wx:if="{{!item.header}}" src='/imgs/icons/{{item.icon}}' class='icon'></image>
+        <view wx:if="{{!item.header}}" class='menu-content'>
+       <view class='title'>{{item.name}}</view>
+       <view wx:if="{{item.unread>0}}" class='tip'>{{item.unread}}</view>
+       <view class='sub-title'></view>
+       <view wx:if="{{item.community}}" class='right'>
+          <image class='right-image' src='/imgs/avatars/{{item.community.avatar}}'></image>
+       </view>
+    </view>
+    <view wx:if="{{item.header}}" class='header'></view>
+   </view>
+</view>

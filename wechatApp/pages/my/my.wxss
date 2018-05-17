@@ -1,0 +1,66 @@
+/**index.wxss**/
+
+page{
+   background: #eee;
+}
+
+.person-info{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+}
+
+.avatar{
+  height: 128rpx;
+  width: 128rpx;
+  margin: 24rpx;
+}
+
+.person-content{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 20rpx;
+}
+.name{
+  font-size: 36rpx;
+  margin-bottom: 12rpx;
+}
+.wechat{
+  font-size: 28rpx;
+  color: #999;
+}
+.rq_code{
+  height: 64rpx;
+  width: 64rpx;
+  margin-right: 60rpx;
+  align-self: center;
+}
+.menu-item{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-bottom: 1rpx solid #ececec;
+}
+.icon{
+  height: 84rpx;
+  width: 84rpx;
+  margin: 16rpx;
+}
+.title{
+  font-size: 32rpx;
+  color: #999;
+  align-self: center;
+  margin-left: 20rpx;
+}
+.header{
+  height: 36rpx;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  background: #ececec;
+  font-size: 24rpx;
+}

@@ -1,0 +1,72 @@
+/* pages/discovery/discovery.wxss */
+page{
+  background: #eee;
+}
+.menu-item{
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  border-bottom: 1rpx solid #ececec;
+}
+.menu-content{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-self: center;
+  align-content: center;
+  
+}
+.icon{
+  height: 72rpx;
+  width: 72rpx;
+  margin: 16rpx;
+  align-content: center;
+  align-self: center;
+  }
+.title{
+    display: flex;
+
+    align-content: center;
+    align-self: center;
+    padding-left: 24rpx;
+  }
+  .tip{
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    background: #ff0000;
+    border-radius: 50%;
+    height: 44rpx;
+    width: 44rpx;
+    margin-left: 30rpx;
+    font-size: 28rpx;
+    color: #fff;
+  }
+  .sub-title{
+    display: flex;
+    flex: 1;
+    align-content: center;
+    align-self: center;
+  }
+  .right{
+    display: flex;
+    margin-right: 30rpx;
+  }
+  .right-image{
+    height: 64rpx;
+    width: 64rpx;
+    align-content: center;
+    align-self: center;
+  }
+  .header{
+  height: 36rpx;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  background: #ececec;
+  font-size: 24rpx;
+  
+}
